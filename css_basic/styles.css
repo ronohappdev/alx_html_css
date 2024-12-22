@@ -1,0 +1,52 @@
+
+/* General container styles */
+@media (max-width: 600px) {
+    body.works_on_smartphone {
+        flex-direction: column;
+    }
+/* General container styles */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    width: 100%;
+}
+
+/* Layout for content sections */
+header, footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #e8f5e9;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #ffe0b2;
+}
+
+/* Reset box sizing and ensure content fits within containers */
+* {
+    box-sizing: border-box;
+}
+
+/* Optional styling for smoother scrolling */
+article, aside {
+    scroll-behavior: smooth;
+}
