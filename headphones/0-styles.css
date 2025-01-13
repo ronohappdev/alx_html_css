@@ -1,3 +1,9 @@
+/* Reset CSS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 :root {
 	--color-primary: #FF6565;
 	--color-black:  #090909;
