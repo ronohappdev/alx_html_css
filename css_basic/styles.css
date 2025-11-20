@@ -1,0 +1,59 @@
+/* FLEXBOX LAYOUT — REQUIRED */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Article takes 2/3, Aside takes 1/3 */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* EXTRA CREATIVE STYLING (allowed) */
+
+header {
+    border-bottom: 2px solid #ddd;
+}
+
+article {
+    background: #fafafa;
+    border-right: 2px solid #eee;
+}
+
+aside {
+    background: #fdfdfd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table th {
+    background: #eaeaea;
+}
+
+/* Links hover effect */
+a:hover {
+    color: blue;
+}
